@@ -14,3 +14,4 @@ sudo make uninstall
 wihotspot
 systemctl enable create_ap
 
+ap configuration
