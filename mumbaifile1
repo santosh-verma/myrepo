@@ -1,0 +1,16 @@
+Linux Wifi Hotspot
+https://github.com/lakinduakash/linux-wifi-hotspot?tab=readme-ov-file
+Installation
+sudo add-apt-repository ppa:lakinduakash/lwh
+sudo apt install linux-wifi-hotspot
+sudo apt install -y libgtk-3-dev build-essential gcc g++ pkg-config make hostapd libqrencode-dev libpng-dev
+git clone https://github.com/lakinduakash/linux-wifi-hotspot
+cd linux-wifi-hotspot
+#build binaries
+make
+#install
+sudo make install
+sudo make uninstall
+wihotspot
+systemctl enable create_ap
+
